@@ -46,8 +46,8 @@ class ScSend():
 
     def send(self, what, value):
         try:
-            if what in self.values and self.values[what] == value :
-                    return 
+            #if what in self.values and self.values[what] == value :
+            #        return 
 
             self.values[what]=value
             oscmessage = scosc.OSC.OSCMessage()
